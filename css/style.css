@@ -1,0 +1,72 @@
+html {
+    position: relative;
+    min-height: 100%;
+    background-color: #ffffff;
+}
+
+body {
+    /* Margin bottom by footer height */
+    margin-bottom: 60px;
+    font-family: Poppins, sans-serif;
+    background-color: #ffffff;
+}
+
+.footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    /* Set the fixed height of the footer here */
+    height: 60px;
+    background-color: #ffffff;
+}
+
+.footer a {
+    color: #777;
+}
+
+.container {
+    width: auto;
+    max-width: 680px;
+    padding: 0 15px;
+}
+
+.container .text-muted {
+    margin: 20px 0;
+}
+
+p {
+    font-size: 14px;
+    font-weight: 500;
+    color: #000;
+    line-height: 25px;
+}
+
+.buttons {
+    margin-top: 20px;
+}
+
+.button {
+    margin-top: 20px;
+    padding: 20px;
+    width: 95%;
+    display: inline-block;
+    background: black;
+}
+
+.buttons a {
+    display: inline-block;
+    font-size: 16px;
+    font-weight: 500;
+    width: 100%;
+    color: #fff;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+#band_list a {
+    padding-bottom: 10px;
+}
